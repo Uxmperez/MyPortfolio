@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	border: 1px solid black;
+	/*width: 800px;
+	height: 120px;*/
+	/*display: flex;*/
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	/*justify-content: space-evenly;*/
+	padding: 20px;
+
+}
+
+.container div {
+	height: 100px;
+	background-color: #aaa;
+	/*margin: 10px 4% 10px 0;*/
+	font-family: Helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px;
+	/*margin: 20px;*/
+	/*width: 22%;*/
+/*	float: left;*/
+}
+/*
+.container div:last-child {
+	margin-right: 0;
+}*/
+
+/*https://flexboxfroggy.com/*/
+/*https://cssgridgarden.com/*/
